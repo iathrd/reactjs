@@ -7,8 +7,12 @@ import Welcome from './components/Welcome'
 function App() {
   return (
     <div className="App">
-      <Greet />
-      <Welcome />
+      <Greet name="iqbal" >
+        <p>this is childern props</p>
+      </Greet>
+      <Greet name="alisa" />
+      <Greet name="budi" />
+      <Welcome name="budi pake Class" />
     </div>
   );
 }
