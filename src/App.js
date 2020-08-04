@@ -11,12 +11,16 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreting from './components/UserGreting';
 import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet'
+import Inline from './components/Inline';
 
 
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <Inline />
+      <StyleSheet />
+      {/* <NameList /> */}
       {/* <UserGreting /> */}
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
